@@ -57,6 +57,21 @@ a:hover {
   h1 {
     margin: 0;
   }
+
+  img {
+    border-radius: 100%;
+    width: 20%;
+    box-shadow: 0px 0px 3px 1px #ccc;
+  }
+
+  .flex-item {
+    display:flex;
+    align-items: center;
+  }
+  .flex-item img{
+    flex-grow:0;
+    flex-shrink:0;
+  }
   
   .toggle {
     position: relative;
@@ -162,8 +177,4 @@ a:hover {
   margin: 0px;
 }
 
-.bottom-bar {
-  justify-content: center;
-
-}
 
