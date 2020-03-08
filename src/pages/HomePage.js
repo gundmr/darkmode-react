@@ -15,16 +15,18 @@ function HomePage() {
     return(
         <div>
 
-            <Container fluid={true}>
-                <Row className="justify-content-right py-2 profile-image">
-                    <Col md={8} sm={12}>
-                        <img src={ pic } alt="profile" width="100%"/>
+            <Container>
+                <Row>
+                    <Col md="auto">
+                        
+                            <h1 className="display-1 font-weight-bolder">Rachel Gundy</h1>
+                            <h3 className="display-5 font-weight-light">Software Engineer in Seattle</h3>
                     </Col>
                 </Row>
-                <Row className="justify-content-left py-2">
-                    <Col md={8} sm={12}>
-                        <h1 className="display-1 font-weight-bolder">Rachel Gundy</h1>
-                        <h3 className="display-5 font-weight-light">Software Engineer in Seattle</h3>
+
+                <Row>
+                    <Col md="auto">
+                        <img src={ pic } alt="profile" width="100%"/>
                     </Col>
                 </Row>
             </Container>

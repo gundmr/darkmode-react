@@ -56,22 +56,38 @@ a:hover {
   
   h1 {
     margin: 0;
+    font-size: 150%;
   }
 
+  h3 {
+    font-size: 75%;
+  }
+
+  p {
+    font-size: 80%;
+  }
+
+  /* display: inline-block */
   img {
+ 
+    justify-content: flex-end;
     border-radius: 100%;
-    width: 20%;
+    width: 75%;
     box-shadow: 0px 0px 3px 1px #ccc;
   }
 
-  .flex-item {
-    display:flex;
-    align-items: center;
+  .container{
+    display: flex;
   }
-  .flex-item img{
-    flex-grow:0;
-    flex-shrink:0;
-  }
+
+  /* .info-container{
+    display: inline-block;
+    vertical-align: top;
+    padding: 5% 0 0 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+ } */
   
   .toggle {
     position: relative;
