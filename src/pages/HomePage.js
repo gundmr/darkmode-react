@@ -1,12 +1,8 @@
 import React from 'react';
 
-import Container from 'react-bootstrap/Container';
-import Row from 'react-bootstrap/Row';
-import Col from 'react-bootstrap/Col';
 
 // IMAGES
-import pic from '../assets/pic.jpeg';
-
+import pic from '../assets/line-img.JPG';
 import Content from '../components/Content';
 
 
@@ -14,23 +10,12 @@ function HomePage() {
 
     return(
         <div>
-
-            <Container>
-                <Row>
-                    <Col md="auto">
-                        
-                            <h1 className="display-1 font-weight-bolder">Rachel Gundy</h1>
-                            <h3 className="display-5 font-weight-light">Software Engineer in Seattle</h3>
-                    </Col>
-                </Row>
-
-                <Row>
-                    <Col md="auto">
-                        <img src={ pic } alt="profile" width="100%"/>
-                    </Col>
-                </Row>
-            </Container>
-
+            <div className="d-flex bd-highlight example-parent">
+            <div className="p-2 flex-fill bd-highlight col-example"><h1>Rachel Gundy</h1></div>
+            <div className="p-2 flex-fill bd-highlight col-example"><h3>Software Engineer in Seattle</h3></div>
+            <div className="p-2 flex-fill bd-highlight col-example"><img src={ pic } alt="profile" padding="0"/></div>
+        </div>
+            
             <Content>
                     <p>Hello, my name is Rachel. I'm a full stack engineer leveraging a background in Product Managment to build a more intuitive user experience on the web. </p>
 
