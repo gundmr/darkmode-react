@@ -172,8 +172,7 @@ a:hover {
 
 .rg-card-image {
   border-radius: 10px;
-  width: 300px;
-  height: 480px;
+  width: 75%;
   box-shadow: 0px 0px 3px 1px #ccc;
 }
 
@@ -183,13 +182,25 @@ a:hover {
 }
 
 .rg-card-title{
-  font-size: 24px;
+  font-size: 70%;
   margin: 0px;
 }
 
 .rg-card-sub-title {
-  font-size: 16px;
+  font-size: 50%;
   margin: 0px;
+}
+
+.rg-link {
+  font-size: 50%;
+  margin: 0px;
+  color: #333;
+  background:	#FFFF00;
+}
+
+.dark-mode .rg-link{
+  color: #E8E8E8;
+  background: #ff69b4;
 }
 
 
